@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9F81F7</item>
+        <item name="colorPrimaryDark">#9F81F7</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorControlNormal">#ACFA58</item>
+        <item name="colorControlActivated">#ACFA58</item>
+        <item name="colorControlHighlight">#ACFA58</item>
+        <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>
+    </style>
+
+    <style name="MyActionButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton">
+
+        <item name="android:padding">30dp</item>
+
+    </style>
+
+
+</resources>
